@@ -19,4 +19,4 @@ on:
 jobs:
   Build:
     # Use template from https://github.com/microsoft/vscode-azuretools/tree/main/.github/workflows
-    uses: microsoft/vscode-azuretools/.github/workflows/jobs.yml@main
+    uses: microsoft/vscode-azuretools/.github/workflows/jobs.yml@67c9d9fdfe0a6b6e1824e81ad7a6310a35f7098c # main
