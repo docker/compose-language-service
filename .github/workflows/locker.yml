@@ -15,7 +15,7 @@ jobs:
           path: ./actions
           ref: stable
       - name: Install Actions
-        run: npm install --production --prefix ./actions
+        run: npm ci --prefix ./actions
       - name: Run Locker
         uses: ./actions/locker
         with:
